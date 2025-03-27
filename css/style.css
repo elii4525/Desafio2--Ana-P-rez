@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+body{
+    background-color: rgb(236, 235, 222);
+    margin: auto;
+}
+
+header {
+    background-color:rgb(165, 157, 132);
+   padding: 20px;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: palevioletred;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav li {
+    display: inline;
+    padding-inline: 50px;
+}
+
+
+.tarjeta {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.tarjeta img {
+    width: 200px;
+}
+
+.producto-vendido {
+    padding-left: 20px;
+}
+
+.producto-vendido button a {
+    text-decoration: none;
+    color: black;  
+}
+
+.producto-vendido button {
+    border-radius: 21px ;
+    border: none;
+    padding: 5px 35px;
+    background-color: palevioletred;
+}
+.producto-vendido p {
+    font-size: 19px;
+}
+.eslogan h1 {
+    text-align: center;
+    font-family: "Birthstone", cursive;
+    font-size: 45px;
+}
+
+.eslogan h2 {
+    text-align: center;
+    color: 
+}
+
+.cards {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
